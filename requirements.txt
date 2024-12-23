@@ -1,0 +1,6 @@
+git add requirements.txt
+git commit -m "Добавил requirements.txt"
+git push
+flask
+flask-cors
+mcstatus
