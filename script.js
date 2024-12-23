@@ -8,7 +8,7 @@ document.getElementById('serverForm').addEventListener('submit', async function 
     statusDiv.innerHTML = "Checking server status...";
 
     try {
-        const response = await fetch(`https://pingminecraftserver.onrender.com?address=${address}&port=${port}`);
+        const response = await fetch(`https://pingminecraftserver.onrender.com/ping?address=${address}&port=${port}`);
         const data = await response.json();
 
         if (data.status === "online") {
