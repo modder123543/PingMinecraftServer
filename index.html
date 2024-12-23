@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Server Status</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Minecraft Server Status Checker</h1>
+    <form id="serverForm">
+        <label for="address">Server Address:</label>
+        <input type="text" id="address" name="address" placeholder="example.com" required>
+        <label for="port">Port:</label>
+        <input type="number" id="port" name="port" value="25565">
+        <button type="submit">Check Server</button>
+    </form>
+    <div id="status"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
